@@ -186,9 +186,9 @@ contract CryptaraLabs {
         payable(owner).transfer(address(this).balance);
     }
 
-    // =====================================================
+ 
     // ------------------ UTILITY FUNCTIONS -----------------
-    // =====================================================
+    
 
     function getProject(uint256 _id)
         public
@@ -215,4 +215,5 @@ contract CryptaraLabs {
     receive() external payable {}
     fallback() external payable {}
 }
+
 
