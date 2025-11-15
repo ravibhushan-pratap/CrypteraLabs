@@ -7,7 +7,7 @@ const project = await Project.deploy();
 
 
 await project.deployed();
-
+// Deployed Project
 
 console.log(`Project deployed to: ${project.address}`);
 }
@@ -18,3 +18,4 @@ console.error(error);
 process.exitCode = 1;
 
 });
+
