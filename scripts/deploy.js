@@ -16,4 +16,5 @@ console.log(`Project deployed to: ${project.address}`);
 main().catch((error) => {
 console.error(error);
 process.exitCode = 1;
+
 });
