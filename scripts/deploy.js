@@ -6,7 +6,7 @@ async function main() {
 const Project = await hre.ethers.getContractFactory("Project");
 const project = await Project.deploy();
 
-
+//project 
 await project.deployed();
 // Deployed Project
 
@@ -22,5 +22,6 @@ process.exitCode = 1;
 
 
 //end
+
 
 
