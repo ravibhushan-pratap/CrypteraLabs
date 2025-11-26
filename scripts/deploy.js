@@ -7,6 +7,7 @@ const Project = await hre.ethers.getContractFactory("Project");
 const project = await Project.deploy();
 
 //project 
+  //deployment 
 await project.deployed();
 // Deployed Project
 
@@ -22,6 +23,7 @@ process.exitCode = 1;
 
 
 //end
+
 
 
 
