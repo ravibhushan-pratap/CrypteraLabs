@@ -15,6 +15,7 @@ module.exports = {
     },
   },
   //path
+ //including 
   paths: {
     artifacts: "./artifacts",
     cache: "./cache",
